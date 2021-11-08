@@ -1,13 +1,15 @@
 <template>
   <v-app>
     <v-app-bar app color="dark" shaped elevation="4">
-      <v-icon x-large color="info">mdi-simple-icons</v-icon>
+      <v-btn icon color="info" outlined nuxt to="/">
+        <v-icon x-large color="info">mdi-simple-icons</v-icon>
+      </v-btn>
       <!-- <v-toolbar-title style="margin-top: 16px; margin-left: -6px"
         >chedule</v-toolbar-title
       > -->
       <v-spacer></v-spacer>
       <div>
-        <v-btn color="info" outlined>
+        <v-btn color="info" outlined nuxt to="/login">
           <v-icon>mdi-login</v-icon>
           Log In
         </v-btn>
@@ -22,15 +24,9 @@
     <v-main>
       <v-container>
         <v-col>
-          <v-alert
-            elevation="7"
-            dismissible
-            border="left"
-            color="purple"
-            type="warning"
-            shaped
-            >Alert</v-alert
-          >
+          <v-alert elevation="7" dismissible color="purple" type="info" shaped
+            >I hope you will introduce higher clients to me. I wiil trust you.
+          </v-alert>
         </v-col>
       </v-container>
     </v-main>

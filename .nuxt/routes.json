@@ -3,12 +3,28 @@
     "name": "inspire",
     "path": "/inspire",
     "component": "E:\\\\Nuxt\\\\nuxt-typescript-vuetify\\\\pages\\\\inspire.vue",
-    "chunkName": "pages/inspire"
+    "chunkName": "pages/inspire",
+    "_name": "_01d1a960"
+  },
+  {
+    "name": "Login",
+    "path": "/Login",
+    "component": "E:\\\\Nuxt\\\\nuxt-typescript-vuetify\\\\pages\\\\Login.vue",
+    "chunkName": "pages/Login",
+    "_name": "_254307bf"
+  },
+  {
+    "name": "Signup",
+    "path": "/Signup",
+    "component": "E:\\\\Nuxt\\\\nuxt-typescript-vuetify\\\\pages\\\\Signup.vue",
+    "chunkName": "pages/Signup",
+    "_name": "_6110459c"
   },
   {
     "name": "index",
     "path": "/",
     "component": "E:\\\\Nuxt\\\\nuxt-typescript-vuetify\\\\pages\\\\index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_37ad7670"
   }
 ]
