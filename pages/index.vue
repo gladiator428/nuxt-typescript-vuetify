@@ -9,13 +9,13 @@
       > -->
       <v-spacer></v-spacer>
       <div>
-        <v-btn color="info" outlined nuxt to="/login">
+        <v-btn color="info" outlined nuxt to="/auth/login">
           <v-icon>mdi-login</v-icon>
           Log In
         </v-btn>
       </div>
       <div>
-        <v-btn color="primary" nuxt to="/signup">
+        <v-btn color="primary" nuxt to="/auth/signup">
           <v-icon>mdi-account</v-icon>
           Sign up
         </v-btn>
